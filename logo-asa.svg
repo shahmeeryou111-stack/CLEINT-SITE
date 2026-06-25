@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <!-- House Icon -->
+  <g transform="translate(0, 5)">
+    <!-- Roof -->
+    <polygon points="20,15 35,0 50,15" fill="#FF6B35"/>
+    <!-- House Body -->
+    <rect x="22" y="15" width="26" height="30" fill="#1A1A1A"/>
+    <!-- Door -->
+    <rect x="32" y="30" width="6" height="15" fill="#FF6B35"/>
+    <!-- Window -->
+    <rect x="24" y="18" width="6" height="6" fill="white"/>
+    <rect x="40" y="18" width="6" height="6" fill="white"/>
+    <!-- Chimney -->
+    <rect x="42" y="5" width="4" height="8" fill="#E55A2B"/>
+  </g>
+  
+  <!-- ASA Text -->
+  <text x="60" y="35" font-family="Montserrat, sans-serif" font-size="28" font-weight="800" fill="#1A1A1A" letter-spacing="-0.5">ASA</text>
+  
+  <!-- CONSTRUCTION LLC Text -->
+  <text x="60" y="52" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" fill="#666666" letter-spacing="0.5">CONSTRUCTION LLC</text>
+  
+  <!-- Tagline -->
+  <text x="60" y="68" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#999999" letter-spacing="0.5">Residential &amp; Commercial Construction</text>
+</svg>

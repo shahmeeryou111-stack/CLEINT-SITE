@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="600" height="100">
+  <!-- BULADEV Logo -->
+  <g transform="translate(20, 10)">
+    <!-- Building Icon -->
+    <g transform="translate(0, 10)">
+      <rect x="0" y="15" width="25" height="40" fill="#FF6B35"/>
+      <rect x="3" y="20" width="5" height="5" fill="white"/>
+      <rect x="10" y="20" width="5" height="5" fill="white"/>
+      <rect x="17" y="20" width="5" height="5" fill="white"/>
+      <rect x="3" y="28" width="5" height="5" fill="white"/>
+      <rect x="10" y="28" width="5" height="5" fill="white"/>
+      <rect x="17" y="28" width="5" height="5" fill="white"/>
+      <rect x="3" y="36" width="5" height="5" fill="white"/>
+      <rect x="10" y="36" width="5" height="5" fill="white"/>
+      <rect x="17" y="36" width="5" height="5" fill="white"/>
+      <rect x="8" y="45" width="9" height="10" fill="#1A1A1A"/>
+      <rect x="22" y="25" width="15" height="30" fill="#E55A2B"/>
+      <rect x="25" y="30" width="4" height="4" fill="white"/>
+      <rect x="31" y="30" width="4" height="4" fill="white"/>
+      <rect x="25" y="38" width="4" height="4" fill="white"/>
+      <rect x="31" y="38" width="4" height="4" fill="white"/>
+      <rect x="25" y="46" width="4" height="4" fill="white"/>
+      <rect x="31" y="46" width="4" height="4" fill="white"/>
+    </g>
+    
+    <text x="45" y="35" font-family="Montserrat, sans-serif" font-size="32" font-weight="800" fill="#1A1A1A" letter-spacing="-1">BULA</text>
+    <text x="125" y="35" font-family="Montserrat, sans-serif" font-size="32" font-weight="800" fill="#FF6B35" letter-spacing="-1">DEV</text>
+    
+    <text x="45" y="55" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666666" letter-spacing="1">BUILDING &amp; LAND DEVELOPMENT</text>
+  </g>
+  
+  <!-- Orange Divider -->
+  <rect x="280" y="15" width="3" height="70" fill="#FF6B35" rx="1.5"/>
+  
+  <!-- AND Text -->
+  <text x="281.5" y="55" font-family="Montserrat, sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">AND</text>
+  
+  <!-- ASA Logo -->
+  <g transform="translate(310, 10)">
+    <!-- House Icon -->
+    <g transform="translate(0, 5)">
+      <polygon points="20,15 35,0 50,15" fill="#FF6B35"/>
+      <rect x="22" y="15" width="26" height="30" fill="#1A1A1A"/>
+      <rect x="32" y="30" width="6" height="15" fill="#FF6B35"/>
+      <rect x="24" y="18" width="6" height="6" fill="white"/>
+      <rect x="40" y="18" width="6" height="6" fill="white"/>
+      <rect x="42" y="5" width="4" height="8" fill="#E55A2B"/>
+    </g>
+    
+    <text x="60" y="35" font-family="Montserrat, sans-serif" font-size="28" font-weight="800" fill="#1A1A1A" letter-spacing="-0.5">ASA</text>
+    
+    <text x="60" y="52" font-family="Montserrat, sans-serif" font-size="14" font-weight="600" fill="#666666" letter-spacing="0.5">CONSTRUCTION LLC</text>
+    
+    <text x="60" y="68" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#999999" letter-spacing="0.5">Residential &amp; Commercial Construction</text>
+  </g>
+</svg>

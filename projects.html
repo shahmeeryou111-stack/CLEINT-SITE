@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BULADEV + ASA Construction Projects - Portfolio of residential, commercial, and land development projects.">
+    <meta name="keywords" content="construction projects, portfolio, residential, commercial, land development">
+    <meta name="author" content="BULADEV + ASA Construction">
+    <title>Projects | BULADEV + ASA Construction</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/hero.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/components.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="../index.html" class="header-logo">
+                <img src="../images/logo-combined.svg" alt="BULADEV + ASA Construction" style="height: 50px; width: auto;">
+            </a>
+            
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a href="../index.html" class="header-nav-link">Home</a></li>
+                    <li><a href="about.html" class="header-nav-link">About</a></li>
+                    <li><a href="services.html" class="header-nav-link">Services</a></li>
+                    <li><a href="projects.html" class="header-nav-link active">Projects</a></li>
+                    <li><a href="testimonials.html" class="header-nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="header-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="contact.html" class="btn btn-primary header-contact-btn">Contact Us</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="header-overlay" id="headerOverlay"></div>
+    <nav class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-list">
+            <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About</a></li>
+            <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+            <li><a href="projects.html" class="mobile-nav-link active">Projects</a></li>
+            <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+            <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="contact.html" class="btn btn-primary" style="width: 100%;">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('../images/projects-hero.jpg');"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1 class="page-hero-title">Our Projects</h1>
+            <div class="page-hero-breadcrumb">
+                <a href="../index.html">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <span>Projects</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Project Portfolio</h2>
+                <p>Explore our diverse portfolio of completed projects showcasing our expertise across residential, commercial, and land development.</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="projects-filter-btn active">All Projects</button>
+                <button class="projects-filter-btn">Residential</button>
+                <button class="projects-filter-btn">Commercial</button>
+                <button class="projects-filter-btn">Land Development</button>
+                <button class="projects-filter-btn">Renovation</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="../images/card-projects.jpg" alt="Modern Family Home" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Residential</span>
+                        <h3 class="project-card-title">Modern Family Home</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-commercial.jpg" alt="Office Complex" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Commercial</span>
+                        <h3 class="project-card-title">Office Complex</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-land.jpg" alt="Subdivision Project" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Land Development</span>
+                        <h3 class="project-card-title">Subdivision Project</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-residential.jpg" alt="Historic Restoration" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Renovation</span>
+                        <h3 class="project-card-title">Historic Restoration</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-process.jpg" alt="Architectural Planning" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Design</span>
+                        <h3 class="project-card-title">Architectural Planning</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-about.jpg" alt="Large Scale Development" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Project Management</span>
+                        <h3 class="project-card-title">Large Scale Development</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-residential.jpg" alt="Luxury Villa" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Residential</span>
+                        <h3 class="project-card-title">Luxury Villa</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-commercial.jpg" alt="Retail Center" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Commercial</span>
+                        <h3 class="project-card-title">Retail Center</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="../images/card-land.jpg" alt="Infrastructure Project" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <span class="project-card-category">Land Development</span>
+                        <h3 class="project-card-title">Infrastructure Project</h3>
+                        <p class="project-card-location">📍 Detroit, MI</p>
+                        <a href="#" class="project-card-link">View Details →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="pagination-link disabled">←</a>
+                <a href="#" class="pagination-link active">1</a>
+                <a href="#" class="pagination-link">2</a>
+                <a href="#" class="pagination-link">3</a>
+                <a href="#" class="pagination-link">→</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">🏗️</div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🏠</div>
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Residential Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🏢</div>
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Commercial Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🗺️</div>
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Land Development</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Have a project in mind?</h2>
+                <p class="cta-description">Let's discuss how we can bring your vision to life with our expertise and experience.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project</a>
+                    <a href="tel:3134449734" class="btn btn-outline-white btn-lg">Call (313) 444-9734</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="../images/logo-combined.svg" alt="BULADEV + ASA Construction" style="height: 60px; width: auto;">
+                    </div>
+                    <p class="footer-tagline">Building & Land Development</p>
+                    <p class="footer-description">Professional construction and land development services delivering exceptional quality and customer satisfaction.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link">f</a>
+                        <a href="#" class="footer-social-link">in</a>
+                        <a href="#" class="footer-social-link">ig</a>
+                        <a href="#" class="footer-social-link">li</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Company</h4>
+                    <div class="footer-links">
+                        <a href="about.html" class="footer-link">About Us</a>
+                        <a href="mission-vision.html" class="footer-link">Mission & Vision</a>
+                        <a href="#" class="footer-link">Our Team</a>
+                        <a href="#" class="footer-link">Careers</a>
+                        <a href="#" class="footer-link">News & Updates</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Services</h4>
+                    <div class="footer-links">
+                        <a href="services.html" class="footer-link">Residential Construction</a>
+                        <a href="services.html" class="footer-link">Commercial Construction</a>
+                        <a href="services.html" class="footer-link">Land Development</a>
+                        <a href="services.html" class="footer-link">Design Services</a>
+                        <a href="services.html" class="footer-link">Project Management</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Contact Info</h4>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span class="footer-contact-text">Detroit, Michigan, USA</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span class="footer-contact-text"><a href="tel:3134449734">(313) 444-9734</a></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">✉️</span>
+                        <span class="footer-contact-text"><a href="mailto:bula@BULADEV.com">bula@BULADEV.com</a></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">🌐</span>
+                        <span class="footer-contact-text"><a href="https://www.BULADEV.com">www.BULADEV.com</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 BULADEV + ASA Construction. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy-policy.html" class="footer-bottom-link">Privacy Policy</a>
+                    <a href="terms-conditions.html" class="footer-bottom-link">Terms & Conditions</a>
+                    <a href="#" class="footer-bottom-link">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
